@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{baseUrl}}/posts"
+  url: "{{baseUrl}}/posts/1"
   headers:
     - name: Content-Type
       value: application/json
