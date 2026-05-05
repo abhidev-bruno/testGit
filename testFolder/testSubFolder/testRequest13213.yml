@@ -1,5 +1,5 @@
 info:
-  name: testRequest1
+  name: testRequest13213
   type: http
   seq: 2
 
@@ -18,6 +18,17 @@ http:
         "userId": 1
       }
   auth: inherit
+
+runtime:
+  variables:
+    - name: pre
+      value: |-
+        change
+        value
+        change
+        value
+        change
+        value
 
 settings:
   encodeUrl: true
